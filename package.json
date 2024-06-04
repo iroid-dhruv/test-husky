@@ -9,6 +9,11 @@
     "prepare": "husky install",
     "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
   },
+  "lint-staged": {
+    "**/*.{js,json}": [
+      "prettier --write"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
