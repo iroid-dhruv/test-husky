@@ -21,10 +21,5 @@ module.exports = {
     "type-case": [2, "always", "lower-case"],
     "subject-empty": [2, "never"],
     "subject-case": [0, "never", []], // Allow any case for the subject
-    "header-pattern": [
-      2,
-      "always",
-      /^(\w+)(\(\w+\))?:\s?.+$/, // Custom regex to allow optional space after colon
-    ],
   },
 };
