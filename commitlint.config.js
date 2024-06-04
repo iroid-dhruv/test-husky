@@ -18,5 +18,6 @@ module.exports = {
         "test",
       ],
     ],
+    "subject-case": [0, "never", []],
   },
 };
